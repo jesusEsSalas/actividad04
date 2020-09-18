@@ -22,14 +22,14 @@ while True:
     clear()
     if opc == 1:
         lado = float(input("Ingresa uno de los lados del cuadrado: "))
-        print("Área:{:.2f}".format(areaCuad(lado)))
+        print("Área: {:.2f}".format(areaCuad(lado)))
     elif opc == 2:
         base = float(input("Base del triángulo: "))
         altura = float(input("Altura del triángulo: "))
-        print("Área:{:.2f}".format(areaTri(base, altura)))
+        print("Área: {:.2f}".format(areaTri(base, altura)))
     elif opc == 3:
         radio = float(input("Radio del círculo: "))
-        print("Área:{:.2f}".format(areaCir(radio)))
+        print("Área: {:.2f}".format(areaCir(radio)))
     elif opc == 0:
         break
     else:
